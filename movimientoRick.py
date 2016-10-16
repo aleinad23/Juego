@@ -1,13 +1,13 @@
 import pygame
 import random
-from lib import *
+from libreria import *
 
 ANCHO=600
 ALTO=468
 
 class Jugador(Cuadro):
     vel=0
-    def __init__(self, archivo,x,y,jpx,jpy):
+    def __init__(self, archivo,x,y):
         pygame.sprite.Sprite.__init__(self) #Inicializo.
         self.fondo=self.Recortar(archivo,x,y)
         self.cambiox=0
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     pygame.init()
     pantalla=pygame.display.set_mode([ANCHO,ALTO])
     pantalla.fill(NEGRO)
-    jp=Jugador('Rick.png',32,32)
+    jp=Jugador('imagen/Rick.png',32,32)
     todos=pygame.sprite.Group()
     todos.add(jp)
     con=0
