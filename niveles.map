@@ -1,0 +1,80 @@
+[nivel]
+origen=imagen/fondo.png
+alto=32
+ancho=32
+mapa=.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a
+     #    %    %                              $
+     $    &  % &          &     %&%&%&%&%&%&% #
+     #  %&%  & %     &%&%&%     &             $
+     $       %  &    %          % &%&%&%&%&%&%#
+     #%&%&%&%& %     & %&%&%&%&%& %   %   %   $
+     $       % &     % &/"/"/"/"% & % & % & % #
+     #      &  %     & %&%&%&%&/& % & % & % & $
+     $       % &     %        &"% & % & % & % #
+     #       & %     &%&%&%&% %/& % & % & % & $
+     $    &%&%  &    %        &"% & % & % & % #
+     #         %     & %&%&%&%&/& % & % & % & $
+     $  &%&%&%&%     % &/"/"/"/"%   %   %   % #
+     #  %           %& %&%&%&%&%&%&%&%&%&%&%& $
+     $  &           &   %                     #
+     #  %           % / &                     $
+     $  &           & " %                     #
+     #  %&%&%&%&%&%&% / &                     $
+     $                " %                     #
+     #                  &                     $
+     .a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a
+
+
+[.]
+nombre=carro
+x=2
+y=0
+muro=si
+
+[a]
+nombre=carro
+x=3
+y=0
+muro=si
+
+[#]
+nombre=barrVer
+x=0
+y=0
+muro=si
+
+[$]
+nombre=barrVer2
+x=1
+y=0
+muros=si
+
+[%]
+nombre=barrRoj
+x=0
+y=2
+muro=si
+
+[&]
+nombre=barrRoj
+x=1
+y=2
+muro=si
+
+[/]
+nombre=barrAzu
+x=0
+y=1
+muros=si
+
+["]
+nombre=barrAzu2
+x=1
+y=1
+muros=si
+
+[ ]
+nombre=espacio
+x=2
+y=1
+muro=no
