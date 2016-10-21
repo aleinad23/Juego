@@ -1,80 +1,121 @@
 [nivel]
 origen=imagen/fondo.png
+origen2=imagen/Rick.png
 alto=32
 ancho=32
-mapa=.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a
-     #    %    %                              $
-     $    &  % &          &     %&%&%&%&%&%&% #
-     #  %&%  & %     &%&%&%     &             $
-     $       %  &    %          % &%&%&%&%&%&%#
-     #%&%&%&%& %     & %&%&%&%&%& %   %   %   $
-     $       % &     % &/"/"/"/"% & % & % & % #
-     #      &  %     & %&%&%&%&/& % & % & % & $
-     $       % &     %        &"% & % & % & % #
-     #       & %     &%&%&%&% %/& % & % & % & $
-     $    &%&%  &    %        &"% & % & % & % #
-     #         %     & %&%&%&%&/& % & % & % & $
-     $  &%&%&%&%     % &/"/"/"/"%   %   %   % #
-     #  %           %& %&%&%&%&%&%&%&%&%&%&%& $
-     $  &           &   %                     #
-     #  %           % / &                     $
-     $  &           & " %                     #
-     #  %&%&%&%&%&%&% / &                     $
-     $                " %                     #
-     #                  &                     $
-     .a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a
+mapa=.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a
+     #    %    %                            $
+     $    &  % &        &     %&%&%&%&%&%&% #
+     #  %&%  &  %  &%&%&%     &             $
+     $       %  &  %          % &%&%&%&%&%&%#
+     #%&%&%&%& %   & %&%&%&%&%& %   %   %   $
+     $      %  &   % &/"/"/"/"% & % & % & % #
+     #      &  %   & %&%&%&%&/& % & % & % & $
+     $       % &   %        &"% & % & % & % #
+     #       &  %  &%&%&%&% %/& % & % & % & $
+     $    &%&%  &  %        &"% & % & % & % #
+     #         %   & %&%&%&%&/& % & % & % & $
+     $  &%&%&%&%   % &/"/"/"/"%   %   %   % #
+     #  %         %& %&%&%&%&%&%&%&%&%&%&%&p$
+     $  &        %&  /%m                  y #
+     #  %&%&%&%&%&  /"&m                  u $
+     $             /"/%m                  i #
+     .a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a
+     ________________________________________
 
 
 [.]
 nombre=carro
 x=2
 y=0
-muro=1
+muros=1
 
 [a]
 nombre=carro
 x=3
 y=0
-muro=1
+muros=1
 
 [#]
 nombre=barrVer
 x=0
 y=0
-muro=1
+muros=1
 
 [$]
 nombre=barrVer2
 x=1
 y=0
-muro=1
+muros=1
 
 [%]
 nombre=barrRoj
 x=0
 y=2
-muro=1
+muros=1
 
 [&]
 nombre=barrRoj
 x=1
 y=2
-muro=1
+muros=1
 
 [/]
 nombre=barrAzu
 x=0
 y=1
-muro=1
+muros=1
 
 ["]
 nombre=barrAzu2
 x=1
 y=1
-muro=1
+muros=1
 
 [ ]
 nombre=espacio
 x=2
 y=1
-muro=0
+muros=0
+
+[_]
+nombre=espacio
+x=2
+y=1
+muros=0
+
+[v]
+nombre=vida
+x=2
+y=2
+muros=0
+
+[m]
+nombre=meta
+x=4
+y=1
+muros=0
+
+[y]
+nombre=barrera
+x=9
+y=0
+muros=0
+
+[u]
+nombre=barrera
+x=9
+y=1
+muros=0
+
+[i]
+nombre=barrera
+x=9
+y=2
+muros=0
+
+[p]
+nombre=puerta
+x=5
+y=2
+muros=0
